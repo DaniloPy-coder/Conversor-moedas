@@ -66,7 +66,7 @@ const App = () => {
       <GlobalStyles />
       <div className="container">
         <div id="img">
-          <img href="/public/imagemoeda.svg" />
+          <img href="conversor-moedas/public/imagemoeda.svg" />
         </div>
 
         <form onSubmit={handleSubmit}>
