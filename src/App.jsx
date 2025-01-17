@@ -63,11 +63,10 @@ const App = () => {
   return (
     <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
       {" "}
-      {/* Aplica o tema selecionado */}
       <GlobalStyles />
       <div className="container">
         <div id="img">
-          <img src="/src/assets/img/imagem moeda.svg" alt="Ilustração" />
+          <img src="/public/imagem moeda.svg" alt="Ilustração" />
         </div>
 
         <form onSubmit={handleSubmit}>
